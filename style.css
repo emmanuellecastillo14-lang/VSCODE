@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    background: #f5f0e6; /* beige claro */
+    color: #5a3e2b; /* café */
+    font-family: "Georgia", "Times New Roman", cursive;
+}
+
+/* INTRO */
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.harina-container {
+    display: flex;
+    cursor: pointer;
+}
+
+#left, #right {
+    width: 200px;
+    transition: 1s;
+}
+
+/* PRESENTACIÓN */
+.presentacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #fffaf3;
+}
+
+.center {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+.grupo {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* BOTÓN */
+button {
+    background: #c8a27c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-style: italic;
+}
+
+button:hover {
+    background: #a67c52;
+}
+
+/* NAV */
+nav {
+    background: #e8d8c3;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #5a3e2b;
+    font-style: italic;
+}
+
+/* CONTENIDO */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+/* TÍTULOS */
+h1, h2, h3 {
+    font-style: italic;
+}
+
+/* IMÁGENES */
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* FONDOS */
+.flag-bg {
+    background: linear-gradient(#f5f0e6, #fffaf3);
+}
+
+.venezuela-bg {
+    background: #f9f5ef;
+}
+
+.food-bg {
+    background: #fdf8f2;
+}

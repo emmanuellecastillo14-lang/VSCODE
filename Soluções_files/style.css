@@ -1,0 +1,25 @@
+body {
+    margin:0;
+    background:black;
+    color:#00ff00;
+    font-family: monospace;
+}
+
+.harina-container {
+    display:flex;
+    justify-content:center;
+    margin-top:100px;
+}
+
+#left, #right {
+    width:200px;
+    transition:1s;
+}
+
+.container {
+    padding:20px;
+}
+
+img {
+    width:100%;
+}
